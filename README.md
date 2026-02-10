@@ -1,50 +1,100 @@
-# Welcome to your Expo app 👋
+🚀 MobileMart — React Native E-Commerce App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
 
-1. Install dependencies
 
-   ```bash
-   npm install
-   ```
 
-2. Start the app
 
-   ```bash
-   npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+A modern cross-platform e-commerce mobile application built using React Native + Expo Router.
+This project demonstrates real-world mobile architecture including authentication flow, protected routes, REST API integration, and global state management.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+📱 Project Preview
 
-## Get a fresh project
+⚡ Built as a resume-level mobile application for production-style architecture.
 
-When you're ready, run:
+Key Screens
 
-```bash
-npm run reset-project
-```
+🔐 Login Screen
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+🏠 Product Listing (API Based)
 
-## Learn more
+🛒 Cart Management
 
-To learn more about developing your project with Expo, look at the following resources:
+📦 Order History
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+📑 Protected Navigation
 
-## Join the community
+✨ Features
 
-Join our community of developers creating universal apps.
+✔ Login Authentication Flow
+✔ Expo Router File-Based Navigation
+✔ Protected Tabs using Context API
+✔ FakeStore REST API Integration
+✔ Dynamic Product Rendering
+✔ Add to Cart with Quantity Logic
+✔ Order History Module
+✔ Responsive Mobile UI
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+🧠 Architecture Highlights
+
+This project follows industry-style React Native architecture:
+
+Global State using Context API
+
+Authentication Guard at Layout Level
+
+Modular Component Design
+
+Clean Folder Structure
+
+Reusable UI Components
+
+🛠 Tech Stack
+Technology	Usage
+React Native	Mobile Development
+Expo Router	Navigation
+TypeScript	Type Safety
+Context API	State Management
+FakeStore API	Product Data
+Expo Go	Testing
+📂 Folder Structure
+app/
+ ├── login.tsx
+ ├── orders.tsx
+ ├── (tabs)/
+ │     ├── index.tsx      // Home
+ │     ├── explore.tsx    // Cart
+ │     └── _layout.tsx
+context/
+ ├── AuthContext.tsx
+ └── CartContext.tsx
+components/
+ └── ProductCard.tsx
+
+▶️ Run the Project
+npm install
+npx expo start
+
+
+Scan the QR code using Expo Go.
+
+💼 Resume Highlights
+
+Developed a production-style React Native e-commerce application implementing:
+
+Authentication Flow with Protected Routes
+
+REST API Integration
+
+Global State Management (Context API)
+
+Modular Component Architecture
+
+Responsive Cross-Platform UI
+
+👨‍💻 Author
+
+Mohit Kumar Gupta
+B.Tech CSE (2022-2026)
